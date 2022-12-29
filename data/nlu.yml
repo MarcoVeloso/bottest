@@ -1,0 +1,13 @@
+version: "2.0"
+nlu:
+- intent: saudacao
+  examples: |
+    - oi
+    - ola
+    - como vai
+    - tudo bem
+- intent: custom_action
+  examples: |
+    - custom
+    - action
+    - ca

@@ -1,0 +1,14 @@
+intents:
+  - saudacao
+  - custom_action
+
+responses:
+  utter_MSG_nlu:
+  - text: "Olá. Estou respondendo baseado no treino de NLU!"
+
+actions:
+- action_hi
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
