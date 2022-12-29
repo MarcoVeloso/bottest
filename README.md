@@ -1,1 +1,1 @@
-# deployment-workshop-bot-2
+# BotTeste do RASA - NLU + Custom action
