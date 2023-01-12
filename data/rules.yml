@@ -1,0 +1,15 @@
+version: "3.1"
+
+rules:
+
+- rule: Inicio e apresentacao do menu
+  conversation_start: true
+  steps:
+  - intent: inicio
+  - action: utter_MSG_inicio    
+  - action: utter_BTN_menu_inicial
+
+- rule: Encerramento da conversa
+  steps:
+  - intent: fim
+  - action: utter_MSG_fim

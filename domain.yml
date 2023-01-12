@@ -1,14 +1,44 @@
+version: "3.1"
+
 intents:
-  - saudacao
+  - inicio
+  - fim
+  - mensagem_legal
   - custom_action
 
 responses:
-  utter_MSG_nlu:
-  - text: "Olá. Estou respondendo baseado no treino de NLU!"
+  utter_MSG_inicio:
+  - text: Olá. Eu sou BCBot!
+
+  utter_MSG_fim:
+  - text: Adorei a nossa conversa! Até a próxima!
+
+  utter_MSG_mensagem_legal:
+  - text: É em meio a dificuldade que se encontra a oportunidade
+  - text: O êxito é ir de frustração a frustração sem perder a animação
+  - text: Mesmo que algo pareça difícil, nunca desista antes de tentar
+  - text: Que os dias bons se tornem rotina, e os ruins se tornem raros
+
+  utter_BTN_menu_inicial:
+  - text: O que você deseja?
+    buttons:   
+    - title: Ver uma mensagem legal
+      payload: /mensagem_legal
+    - title: Mensagem de Custom Action
+      payload: /custom_action
+
+  utter_BTN_menu_legal:
+  - text: Deseja ver outra mensagem legal?
+    buttons:   
+    - title: Sim!
+      payload: /mensagem_legal
+    - title: Não, quero encerrar esta conversa
+      payload: /fim
 
 actions:
 - action_hi
 
+
 session_config:
-  session_expiration_time: 60
+  session_expiration_time: 5
   carry_over_slots_to_new_session: true
