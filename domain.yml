@@ -9,6 +9,8 @@ intents:
 responses:
   utter_MSG_inicio:
   - text: Olá. Eu sou BCBot!
+  utter_MSG_inicio_2:
+  - text: Sou um Chatbot desenvolvido em RASA OPEN SOURCE. É um prazer conversar com você!
 
   utter_MSG_fim:
   - text: Adorei a nossa conversa! Até a próxima!
@@ -18,6 +20,12 @@ responses:
   - text: O êxito é ir de frustração a frustração sem perder a animação
   - text: Mesmo que algo pareça difícil, nunca desista antes de tentar
   - text: Que os dias bons se tornem rotina, e os ruins se tornem raros
+  - text: É genial celebrar a vitória, contudo é mais significativo aprender com as lições da derrota
+  - text: Qualquer dificuldade pode ser ultrapassada, já que para todo problema há uma solução
+  - text: Suas pequenas vitórias são todas as dificuldades superadas durante sua vida, tenha orgulho delas      
+  - text: Cada dificuldade ultrapassada te faz mais forte
+  - text: O êxito é a somatória dos pequenos esforços repetidos diariamente
+  - text: Da mesma forma que a felicidade não dura para sempre, a tristeza também não
 
   utter_BTN_menu_inicial:
   - text: O que você deseja?
@@ -37,7 +45,6 @@ responses:
 
 actions:
 - action_hi
-
 
 session_config:
   session_expiration_time: 5

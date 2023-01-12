@@ -7,6 +7,7 @@ rules:
   steps:
   - intent: inicio
   - action: utter_MSG_inicio    
+  - action: utter_MSG_inicio_2  
   - action: utter_BTN_menu_inicial
 
 - rule: Encerramento da conversa
