@@ -116,7 +116,7 @@ venv3/
 
 # Rasa stuff
 credentials.yml
-models/
+#models/
 *.db*
 *.dot
 terms/
