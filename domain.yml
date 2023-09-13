@@ -44,7 +44,7 @@ responses:
       payload: /fim
 
 actions:
-- action_hi
+- action_speak_to_an_agent
 
 session_config:
   session_expiration_time: 5
