@@ -34,6 +34,8 @@ responses:
       payload: /mensagem_legal
     - title: Mensagem de Custom Action
       payload: /custom_action
+    - title: Encerrar esta conversa
+      payload: /fim
 
   utter_BTN_menu_legal:
   - text: Deseja ver outra mensagem legal?
@@ -44,7 +46,7 @@ responses:
       payload: /fim
 
 actions:
-- action_speak_to_an_agent
+- action_hi
 
 session_config:
   session_expiration_time: 5

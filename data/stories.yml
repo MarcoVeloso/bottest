@@ -11,4 +11,5 @@ stories:
 - story: Responde via custom action
   steps:
   - intent: custom_action
-  - action: action_speak_to_an_agent
+  - action: action_hi
+  - action: utter_BTN_menu_legal
