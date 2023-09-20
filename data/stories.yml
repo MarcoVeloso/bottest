@@ -12,4 +12,4 @@ stories:
   steps:
   - intent: custom_action
   - action: action_hi
-  - action: utter_BTN_menu_legal
+  - action: utter_BTN_menu_inicial
